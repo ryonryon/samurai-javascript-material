@@ -1,4 +1,16 @@
-## Ajax
+# Ajax 通信
+
+### Ajax 通信とは
+
+Ajax とは「Asynchronous JavaScript+XML」の略称。Ajax は JavaScript を利用しサーバとの間の通信(データのやり取り)を非同期で行う。
+
+下記の方法で行う
+
+- XMLHttpRequest を使用
+- fetch API を使用
+- axios を使用
+
+# XMLHttpRequest
 
 ### XMLHttpRequest とは
 
@@ -52,6 +64,8 @@ xhr.open("GET", "https://uinames.com/api/?amount=25");
 xhr.send();
 ```
 
+# fetch API
+
 ### fetch API とは
 
 XMLHttpRequest と同じで HTTP リクエストを発行する API。MLHttpRequest よりシンプルでモダンに記述が可能。実行可能なブラウザには制限があり。
@@ -87,6 +101,8 @@ fetch(url, {
 });
 
 ```
+
+# axios.js
 
 ### axios.js とは
 
