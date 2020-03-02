@@ -49,7 +49,7 @@ xhr.onreadystatechange = function () {
             // データ受信完了.
             if( xhr.status == 200 || xhr.status == 304 ) {
                 var data = xhr.responseText; // responseXML もあり
-                console.log( 'COMPLETE! :'+data );
+                console.log( data );
             } else {
                 console.log( 'Failed. HttpStatus: '+xhr.statusText );
             }
@@ -111,6 +111,10 @@ HTTP 通信を簡単に行うことができる Javascript ライブラリ。ブ
 ### axios.js の使い方
 
 ```
+// ブラウザで使用する場合、下記をhtmlに追加
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+// node.jsで使用する場合
 // requireを使う場合
 const axios = require('axios');
 
