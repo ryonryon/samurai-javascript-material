@@ -29,6 +29,6 @@ const option4 = {
   }
 };
 ScrollReveal().reveal('.about', option);
-ScrollReveal().reveal('.works', option2);
+ScrollReveal().reveal('.works', option4);
 ScrollReveal().reveal('.skills', option3);
 ScrollReveal().reveal('.contact', option4);
